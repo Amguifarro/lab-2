@@ -68,6 +68,13 @@ body, .contact-input, .contact-textarea  {
     background-color: #dddddd;
 }
 
+.contact-input:focus,
+.contact-textarea:focus,
+.contact-submit-button:focus {
+    outline: 3px solid #007000;
+    outline-offset: 2px;
+}
+
 /* 
 Current issues:
 - Placeholder text has poor text contrast.

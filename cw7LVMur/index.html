@@ -13,16 +13,16 @@
         <main id="main">
             <!-- Form section -->
             <section class="contact-form-section">
-                <form>
+                <form aria-describedby="form-instructions">
                     <h1 class="contact-form-heading">Reach <span>Out</span></h1>
-                    <p class="contact-form-intro">Curious about something? Complete these fields and "get in touch", as you humans say. 🤙</p>
+                    <p class="contact-form-intro" id="form-instructions">Curious about something? Complete these fields and "get in touch", as you humans say. 🤙</p>
                     <label for="name">Name</label>
                     <input class="contact-input" id="name" type="text" placeholder="Full name" />
                     <label for="email">Email</label>
                     <input class="contact-input" id="email" type="email" placeholder="Email" />
                     <label for="message">Message</label>
                     <textarea class="contact-textarea" id="message" rows="4" cols="50" placeholder="Your message..."></textarea>
-                    <button class="contact-submit-button" type="submit" onclick="submitForm()">submit</button>
+                    <button class="contact-submit-button" type="submit" onclick="submitForm()">Submit message</button>
                 </form>
                 <img class="contact-image" src="images/connect.jpg" alt="A Human hand reaching toward a white robotic hand" />
             </section>
